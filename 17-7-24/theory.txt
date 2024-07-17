@@ -1,0 +1,61 @@
+Null Pointer :
+    a Pointer that is not assisgned but Null
+    int *ptr = NULL;
+
+Wild pointer :
+    pointers that have not been initialized with something yet
+    cause problem and do memory crash
+
+Far pointer :
+    can access memory outside current segment
+
+Dangling pointer :
+    new ---allocation
+    delete ---dealloacation
+    a pointer pointing to memory location that has been deleted
+
+Huge Pointer : 
+    it contains segment address and offset address
+
+Complex pointer : 
+    Pointer with multiple level of indirections
+
+Generic pointer :
+    using pointer for void (void *)
+
+File pointer:
+    pointer which is used to use point file (use file DATA TYPE)
+
+//////////------- POINTERS IN C++  -----------///////////////////
+smart pointer :
+    auto pointer
+    unique pointer
+    shared pointer
+    weak pointer
+
+    we use smart pointers because normal pointers has memory leakage
+    Buffer overflow : used to wrute data to memory outside allocated memory block
+    Data inconssient : stored in memory but not updated
+    -- to solve this we use smart pointers
+
+
+normal pointer : 
+    if new is forgot memory leekage will happen
+    because of new it automatically deletes when it is out of scope
+
+Auto pointer:
+    provide automatic storage management
+    when auto_ptr object goes out of the scope , it automatically deletes the dynamically allocated object it deletes
+
+    smart pointers comes under <memory> header file
+
+Unique pointer :
+    unique_ptr <A> ptr1 (new A)
+    
+
+    
+
+
+
+
+

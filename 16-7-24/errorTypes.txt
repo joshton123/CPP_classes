@@ -1,0 +1,6 @@
+Functors : STL function objects
+    the function are defined inside <functional> header file
+
+    predefined Functors:
+        equal_to ,not_equal_to ,greater , less ,plus ,minus
+        
