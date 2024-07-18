@@ -4,4 +4,14 @@ shared_ptr - <memory>
 
     prevent memory leaks
 
-    
+
+Weak_ptr :
+    similar to shared_ptr
+    but it will not maintain reference count
+    further pointer will not have strong hold on the object
+    no circular dependency
+
+disadvantages of shared_ptr:
+    since it is maintaining reference counter it will have a circular dependency
+    created by two or more object pointing to each other 
+

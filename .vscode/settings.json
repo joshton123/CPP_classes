@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "deque": "cpp"
+        "deque": "cpp",
+        "iostream": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp"
     }
 }
