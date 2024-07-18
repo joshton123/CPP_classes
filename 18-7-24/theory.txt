@@ -1,0 +1,7 @@
+shared_ptr - <memory>
+    multiple shared_ptr instances can share ownership of an object
+    object is destroyed when the last shared_ptr owning is destroyed
+
+    prevent memory leaks
+
+    
