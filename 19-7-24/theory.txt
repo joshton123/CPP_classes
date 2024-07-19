@@ -1,0 +1,29 @@
+stack: memory is allocated in contiguous order
+heap: memory is allocated in random order
+
+Type of recursion :
+    Direct: Function call itself with the same Function
+    Indirect:
+
+    depending on when they terminate (Finite , infinite)
+
+    Tail recursion: recursive is the last statement executed by Function
+    Head recursion(NO Tail)
+
+
+Linear data structure:
+    Array
+    stack
+    Queue
+    Linked List
+
+
+sorting:
+    basic: sort(begin , end)
+    custom: sort(begin ,end ,comparator)
+    partial: sort(begin ,end ,end)
+
+
+
+
+
