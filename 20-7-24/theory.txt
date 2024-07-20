@@ -1,0 +1,6 @@
+Dry function
+    allocation , dealloaction - leakage
+    smart pointer
+
+    java : runtime error exception
+    kotlin : it can be avoided
